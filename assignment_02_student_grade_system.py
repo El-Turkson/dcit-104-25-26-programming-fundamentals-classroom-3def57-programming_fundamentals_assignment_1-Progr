@@ -44,7 +44,6 @@
 # =============================================================================
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
-
 def get_grade(score):
     if score < 0 or score > 100:
         return None
@@ -70,5 +69,5 @@ def main():
         print(f"Grade: {grade}")
 
 
-if  __name__ == "__main__":
+if __name__ == "__main__":
     main()
